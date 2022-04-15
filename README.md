@@ -1,4 +1,9 @@
-# Beyonce Objects
+# Remote Beyonce Objects
+
+Use these API endpoints to get data:
+
+* Songs: `https://beyonce-object-api.herokuapp.com/hits`
+* Movies: `https://beyonce-object-api.herokuapp.com/movies`
 
 In `index.js`, write functions that do the following:
 
