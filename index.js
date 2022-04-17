@@ -2,6 +2,7 @@ const songAPI = `https://beyonce-object-api.herokuapp.com/hits`
 const movieAPI = `https://beyonce-object-api.herokuapp.com/movies`
 const jokeAPI = `https://api.jokes.one/jod?category=animal`
 
+
 //Print all the songs
 function fetchHitSongs() {
     const fetchData = fetch(songAPI)
@@ -26,6 +27,7 @@ function fetchHitSongs() {
 console.log(fetchHitSongs())
 
 
+
 //Print all the movies
 function fetchHitMovies() {
     const fetchDataMovies = fetch(movieAPI)
@@ -48,6 +50,3 @@ function fetchHitMovies() {
 }
 
 console.log(fetchHitMovies())
-
-
-//Return an array of all Beyonce's hit song titles

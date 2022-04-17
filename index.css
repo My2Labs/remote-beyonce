@@ -5,7 +5,7 @@
         width: 100%;
         display: inline-block;
         font-size: 16px;
-        background-color: #f28599;
+        background-color: rgb(243, 133, 153);
     }
     
     header {
@@ -136,7 +136,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0 10px 20px 10px;
-        color: rgb(130, 26, 95);
+        color: #D02A99;
         border: solid 2px white;
     }
     
