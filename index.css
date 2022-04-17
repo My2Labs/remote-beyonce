@@ -1,15 +1,11 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: rgb(251, 250, 250);
     margin: 0%;
     width: 100%;
     display: inline-block;
     font-size: 16px;
-    background: url(backgroundimagenews.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: rgb(251, 150, 241);
 }
 
 header {
@@ -41,7 +37,7 @@ span {
 
 .navbar {
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(208, 42, 153);
     font-family: Arial;
 }
 
@@ -70,7 +66,7 @@ span {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: hsl(212, 94%, 40%);
+    background-color: rgb(208, 42, 153);
 }
 
 .dropdown-content {
@@ -84,7 +80,7 @@ span {
 
 .dropdown-content a {
     float: none;
-    color: black;
+    color: rgb(208, 42, 153);
     padding: 14px 14px;
     text-decoration: none;
     display: block;
@@ -101,10 +97,6 @@ span {
     display: block;
 }
 
-li {
-    text-decoration: none;
-}
-
 nav:link,
 a:link {
     text-decoration: none;
@@ -118,152 +110,38 @@ p>a:link {
 
 a:visited {
     background-color: rgb(170, 166, 166);
-    color: #0d7fd1;
+    color: rgb(130, 26, 95);
 }
 
 .flexmain {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0 15px 15px 15px;
+    font-size: 30px;
+    font-weight: 500;
+    width: 70%;
     align-items: center;
-    padding: 5px;
-}
-
-.flexcolumnsixty {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: start;
-    width: 50%;
-    margin: 5px;
-}
-
-.flexcolumnthirty {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: start;
-    width: 30%;
-    margin: 5px;
-}
-
-.flexrow {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     align-content: center;
-    text-align: center;
-    width: 30%;
-    background-color: rgb(46, 45, 45);
-    border: ridge 5px white;
-    filter: drop-shadow(0 0.9em 0.9em rgba(0, 0, 0, 1.9));
-    margin: 5px;
-    font-weight: 500;
-    padding: 10px;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.flexrow>h2 {
-    padding-left: 30px;
-    padding-right: 30px;
-    color: white;
-}
-
-.flexrow>p {
-    font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-p>a:link {
-    color: rgb(186, 186, 242);
-    text-decoration: underline;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.flexrow1,
-.flexrow2,
-.flexrow3,
-.flexrow4 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
-    width: 100%;
-    background-color: white;
-    margin: 5px;
-    font-weight: 800;
-    padding: 10px;
-    border: solid 2px gray;
-    filter: drop-shadow(0 0.9em 0.9em rgba(0, 0, 0, 1.9));
-}
-
-.flexcolumnform {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    background-color: white;
-    filter: opacity(.7);
-    border: solid 2px rgb(199, 197, 197);
-    margin: 5px;
-    font-weight: 800;
-    padding: 10px;
-}
-
-p {
-    padding-left: 10em;
-    padding-right: 10em;
-}
-
-.spinner {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    text-align: center;
-    width: 400px;
-}
-
-.hidden {
-    display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
     width: 100%;
 }
 
-form,
-input,
-formp {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 20px 10px;
+    color: #D02A99;
+    border: solid 2px rgb(208, 42, 153);
+}
+
+li {
+    color: white;
     padding: 10px;
-    margin: 10px;
-    text-align: center;
-}
-
-#submitbutton {
-    width: 100px;
-    height: 40px;
-    border-radius: 50px;
-    color: whitesmoke;
-    background-color: black;
-    margin: 20px;
-}
-
-#acceptance {
-    background-color: red;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-}
-
-.scienceicon {
-    width: 40px;
+    text-decoration: none;
 }
