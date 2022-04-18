@@ -112,20 +112,10 @@
         background-color: rgb(170, 166, 166);
         color: rgb(130, 26, 95);
     }
-    
-    .flexmain {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        padding: 0 15px 15px 15px;
-        font-size: 30px;
-        font-weight: 500;
-        width: 70%;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        margin-left: auto;
-        margin-right: auto;
+
+    .exercise {
+        display: block;
+        text-align: center;
     }
     
     img {
@@ -136,18 +126,23 @@
         list-style-type: none;
         margin: 0;
         padding: 0 10px 20px 10px;
-        color: #D02A99;
+        color: #472a67;
         border: solid 2px white;
+        text-align: left;
     }
     
     li {
         color: white;
         padding: 10px;
-        text-decoration: none;
+        text-align: center;
     }
     
     .icon {
         width: 3em;
         margin: 0;
         padding: 0;
+    }
+
+    div {
+        padding: 10px;
     }
