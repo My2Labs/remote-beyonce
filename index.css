@@ -112,7 +112,7 @@
         background-color: rgb(170, 166, 166);
         color: rgb(130, 26, 95);
     }
-
+    
     .exercise {
         display: block;
         text-align: center;
@@ -130,7 +130,6 @@
         color: #472a67;
         border: dashed 2px white;
         text-align: left;
-
     }
     
     li {
@@ -138,7 +137,7 @@
         color: white;
         padding: 10px;
         text-align: center;
-        list-style-type:circle;
+        list-style-type: circle;
         border-radius: 30px;
         background: linear-gradient(180deg, rgb(225, 139, 193), rgb(210, 111, 127));
     }
@@ -148,7 +147,7 @@
         margin: 0;
         padding: 0;
     }
-
+    
     div {
         padding: 10px;
     }
