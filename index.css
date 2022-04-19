@@ -37,7 +37,7 @@
     
     .navbar {
         overflow: hidden;
-        background-color: #E5E5E5;
+        background: linear-gradient(230deg, rgb(243, 133, 153), #E5E5E5);
         font-family: Arial;
     }
     
@@ -136,10 +136,11 @@
         display: block;
         color: white;
         padding: 10px;
+        margin: 10px;
         text-align: center;
         list-style-type: circle;
         border-radius: 30px;
-        background: linear-gradient(180deg, rgb(225, 139, 193), rgb(210, 111, 127));
+        background: linear-gradient(130deg, rgb(243, 133, 153), rgb(246, 167, 181), rgb(243, 133, 153));
     }
     
     .icon {
